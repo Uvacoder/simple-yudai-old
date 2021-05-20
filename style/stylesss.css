@@ -473,7 +473,7 @@
 
 
 .twitter, .linkedin, .github, .codepen{
-    fill: #0D0D0C;
+    fill: #e5e5e5;
 }
 
 .twitter:hover{
@@ -493,22 +493,22 @@
 }
 
 @keyframes svg_colorC {
-    0%{fill: #0D0D0C}
+    0%{fill: #e5e5e5}
     100%{fill: #ae63e4; stroke: black}
 }
 
 @keyframes svg_colorG {
-    0%{fill: #0D0D0C}
-    100%{fill: #f4cbb2; stroke: black}
+    0%{fill: #e5e5e5}
+    100%{fill: #5a6268; stroke: black}
 }
 
 @keyframes svg_colorL {
-    0%{fill: #0D0D0C}
+    0%{fill: #e5e5e5}
     100%{fill: #0072b1; stroke: black}
 }
 
 @keyframes svg_colorT {
-    0%{fill: #0D0D0C}
+    0%{fill: #e5e5e5}
     100%{fill: #00acee; stroke: black}
 }
 
@@ -571,8 +571,8 @@
     width: 5%;
     height: 5%;
     position: relative;
-    bottom: -45%;
-    left: 48%;
+    left: 45%;
+    top: 30%;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -581,9 +581,6 @@
     animation: arrow_link 0.5s ease forwards;
 }
 
-.arrow #arrow-tip{
-    stroke: #102770;
-}
 
 @keyframes arrow_link {
     0%{transform: rotate(180deg)}
@@ -908,8 +905,8 @@ hr{
     }
 
     .card-cover{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         left: 10%;
         top: 20%;
     }
@@ -927,7 +924,7 @@ hr{
     }
 
     .description p{
-        font-size: 12px;
+        font-size: 15px;
     }
 
 
@@ -981,11 +978,9 @@ hr{
     /*Portfolio*/
 
     .project{
-        position: absolute;
-        left: 25%;
-        top: 5%;
-        width: 200px;
-        height: 200px;
+        left: 30%;
+        width: 350px;
+        height: 350px;
     }
 
 
@@ -1004,6 +999,8 @@ hr{
     .modal-content{
         width: 350px;
         height: 350px;
+        position: relative;
+        top: 15%;
     }
 
     .modal-content h2{
@@ -1018,9 +1015,7 @@ hr{
     .modal-content #link{
         width: 5%;
         height: 5%;
-        bottom: -30%;
-        left: 48%;
-
+        top: 5%;
     }
 
     .skill_set h1{
@@ -1034,19 +1029,19 @@ hr{
     }
 
     .spyglass{
-        width: 200px;
-        height: 200px;
+        width: 350px;
+        height: 350px;
     }
 
     #loupe{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .advice{
         top: 60%;
-        left: 30%;
-        font-size: 1em;
+        left: 25%;
+        font-size: 2em;
     }
 
 
